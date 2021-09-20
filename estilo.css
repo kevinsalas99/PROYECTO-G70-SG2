@@ -1,0 +1,74 @@
+.banner {
+                width: 100%;
+            }
+    
+            .banner>img {
+                width: 100%;
+                height: 400px;
+                max-width: 1400px;
+                object-fit: cover;
+            }
+
+
+.navega {
+                width: 40%;
+                justify-content: space-around;
+                display: flex;
+                align-items: center;
+            }
+    
+            .navega>a {
+                color: inherit;
+                text-decoration: none;
+            }
+    
+            .navega>a:hover {
+                text-decoration: underline;
+                font-weight: bold;
+            }
+
+            .navega {
+            	margin:auto;
+	            text-align:center;
+            }
+
+
+.logo{
+	height: 90px;
+	width: 90px;
+}
+
+
+.imagprin1,.iconosagro1{
+
+      justify-content: space-around;
+	 display: flex;
+     margin-bottom: 100px;
+      background-color: #f7f7f7;
+      flex-wrap: wrap;
+}
+
+
+.imagenagro{
+
+	height: 300px;
+	width: 400px;
+}
+
+
+.iconagro{
+
+	height: 200px;
+	width: 200px;
+
+}
+
+.iconosagro1{
+
+	background-color: white;
+}
+
+
+
+
+
