@@ -4,20 +4,27 @@
 
 <head>
 
- <title>
- 	    CATALOGO
- </title>
+	<title>
+		CATALOGO
+	</title>
 
- <meta charset="utf-8">
- <meta name ="keywods" content="Agronomia,Plantas,Fertilizantes,Campo,Agricultor">
- <meta name = "description" content="Somos una empresa enfocada a la agroindustria, en la venta de Fertilizantes y otros complementos para las Plantas">
- <meta name="author" content="Kevin Andres Salas Gomez">
- <meta name="copyright" content="Kevin.salas">
- <meta name="robots" content="index">
+	<meta charset="utf-8">
+	<meta name="keywods" content="Agronomia,Plantas,Fertilizantes,Campo,Agricultor">
+	<meta name="description"
+		content="Somos una empresa enfocada a la agroindustria, en la venta de Fertilizantes y otros complementos para las Plantas">
+	<meta name="author" content="Kevin Andres Salas Gomez">
+	<meta name="copyright" content="Kevin.salas">
+	<meta name="robots" content="index">
 
- <link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
 
- <link rel="icon" href="imagenes/logo.jpg">
+	
+	<!-- Se añade icono en la parte superior de la pagina-->
+	<link rel="icon"  href="imagenes/logo.png">
+
+	<!-- Se agrega este link para uso del bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
 </head>
@@ -27,33 +34,64 @@
 <body>
 
 	<main>
-		
-<header>
 
-	
-	<!-- Barra de navegacion -->
-	<nav>
-		<ul class="navega">
-			<a href="index.html"> <button type="button">Inicio</button></a>
-			<a href=" catalogo.html"> <button type="button">Productos</button></a>
-			<a href="servicios.html"> <button type="button">Servicios</button></a>
-			<a href="quienesSomos.html"> <button type="button">Nosotros</button></a>
-			<a href="registrar.html"> <button type="button">Iniciar sesión</button></a>
+		<header>
 
-		</ul>
-	</nav>
+			<div class="row">
 
-	<!--Fin  Barra de navegacion -->
+				<!-- logo -->
+				<img class="Page" src="https://pbs.twimg.com/profile_images/1438622462003003395/3WRqYj9R_400x400.jpg">
+				<br><br>
+				<!-- fin logo-->
+
+				<!-- Barra de navegacion -->
+				<nav>
+					<ul class="navega">
+						<a href="index.html"> <button type="button"
+								class="btn btn-primary btn-lg btn-block">Inicio</button></a>
+						<a href="catalogo.html"> <button type="button"
+								class="btn btn-primary btn-lg btn-block">Catálogo</button></a>
+						<a href="servicios.html"> <button type="button"
+								class="btn btn-primary btn-lg btn-block">Servicios</button></a>
+						<a href="quienesSomos.html"> <button type="button"
+								class="btn btn-primary btn-lg btn-block">Nosotros</button></a>
+						<a href="Registrarse.html"> <button type="button"
+								class="btn btn-primary btn-lg btn-block">Registrarse</button></a>
+					</ul>
+				</nav>
+				<nav>
+					<ul class="IconosMenu" style=background:#d9ddd8;>
+						<a href=" InicioSesion.html" window.document.title='Inicio de sesión' ; target="_BLANK">
+							<img src="imagenes/IconoInicioSesion.png" width="50" height="50" HSPACE="15"></a>
+						<a href="CarritoCompras.html" window.document.title='Compras en línea' ; target="_BLANK">
+							<img src="imagenes/IconoCarritoCompras.png" width="50" height="50" HSPACE="15"></a>
+						<a href="Domicilio.html" window.document.title='Domicilio' ; target="_BLANK">
+							<img src="imagenes/IconoDomicilio.png" width="50" height="50" HSPACE="15"></a>
+					</ul>
+				</nav>
+				<!--Fin  Barra de navegacion -->
+
+				<!--Inicio barra de busqueda-->
+				<div class="flexsearch">
+					<div class="flexsearch--wrapper">
+						<form class="flexsearch--form" action="#" method="post">
+							<div class="flexsearch--input-wrapper">
+								<input class="flexsearch--input" type="search" placeholder=" Buscar...">
+							</div>
+							<input class="flexsearch--submit" type="submit" value="&#10140;" />
+						</form>
+					</div>
+				</div>
+				<!--Fin barra de busqueda-->
+			</div>
+
+		</header>
 
 
-
-</header>
-
-
- </main>
+	</main>
 
 </body>
-	
+
 
 
 
@@ -68,7 +106,9 @@
 			<img src="imagenes/IconoTwitter.png" width="50" height="50"></a>
 		<a href="https://www.instagram.com/proseagro_cvp/?hl=es" target="_BLANK">
 			<img src="imagenes/IconoInstagram.png" width="50" height="50"></a>
-		<a href="https://web.whatsapp.com/" target="_BLANK">
+		<!--24-09-21,Heiver,Añadí enlace que redirije a mi # de whatsapp-->
+		<a href="https://api.whatsapp.com/send?phone=+573216247924&text=Hola!%20Bienvenidos%20a%20PROSEAGRO%20CVP.%20%C2%BFEn%20qu%C3%A9%20podemos%20servirte?"
+			target="_BLANK">
 			<img src="imagenes/IconoWhatsapp.png" width="50" height="50"></a>
 		<a href="https://www.youtube.com/channel/UC8veVpNHpOlJFmlq-q7S3Ow" target="_BLANK">
 			<img src="imagenes/IconoYoutube.png" width="50" height="50"></a>

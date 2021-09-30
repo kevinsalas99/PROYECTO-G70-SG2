@@ -1,3 +1,25 @@
+.flexsearch {
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.IconosMenu {
+  margin-top: 60px;
+  padding-left: 1px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+/*24-09-21, Heiver, modificacion titulo principal*/
+.TituloPagina , .nuestroequipo {
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  size: 5px;
+  background-color: rgb(48, 179, 54);
+}
+
 .banner {
   width: 100%;
 }
@@ -8,6 +30,7 @@
   max-width: 1400px;
   object-fit: cover;
   animation: infinite normal linear;
+  margin-bottom: 25px;
 }
 
 .navega {
@@ -30,12 +53,15 @@
 .navega {
   margin: auto;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 60px;
+  margin-left: 100px;
 }
 
 .Page {
   height: 150px;
   width: 150px;
+  margin-top: 25px;
+  margin-left: 25px;
 }
 
 .imagprin1,
@@ -62,6 +88,84 @@
   background-color: white;
 }
 
+.card1 {
+  margin-bottom: 25px;
+}
+
 .footer-center {
   text-align: center;
+  font-size: 1;
 }
+
+.form-registrarse {
+  text-align: center;
+}
+
+
+
+
+
+/* Edicion imagenes nosotros  */
+.iconosotros {
+  height: 200px;
+  width: 200px;
+}
+
+
+.imanosotros1 {
+  justify-content: space-around;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 20px;
+   background-color: white;
+  flex-wrap: wrap;
+}
+/* fin edicion imagenes nosotros  */
+
+
+
+
+/* Ajuste de descripcion de nosotros */
+.textonosotros{
+  float: left;
+  width:20em;
+  height: 20em;
+  margin: 3px;
+  padding: 3px;
+   font-family: "ArIaL", serif;
+  
+}
+
+/* Fin ajuste de descripcion de nosotros */
+
+
+
+.footer-center {
+            background-color: #0DE174;
+            height: 200px;  
+            color: white;
+            justify-content: space-evenly;
+            background-color: rgb(48, 179, 54);
+        }
+
+
+
+
+ .form-registrarse{
+
+float: none;
+  width:40em;
+  margin: 3px;
+  padding: 3px;
+   font-family: "ArIaL", serif;
+    position:relative;
+    top:25%; 
+    left:25%;
+
+
+ }
+
+
+
+
+ 
