@@ -10,7 +10,8 @@
 }
 
 /*24-09-21, Heiver, modificacion titulo principal*/
-.TituloPagina , .nuestroequipo {
+.TituloPagina,
+.nuestroequipo {
   -webkit-text-fill-color: rgb(255, 255, 255);
   -webkit-text-stroke: 2px black;
   text-align: center;
@@ -101,71 +102,53 @@
   text-align: center;
 }
 
-
-
-
-
 /* Edicion imagenes nosotros  */
 .iconosotros {
   height: 200px;
   width: 200px;
 }
 
-
 .imanosotros1 {
   justify-content: space-around;
   display: flex;
   margin-bottom: 10px;
   margin-top: 20px;
-   background-color: white;
+  background-color: white;
   flex-wrap: wrap;
 }
 /* fin edicion imagenes nosotros  */
 
-
-
-
 /* Ajuste de descripcion de nosotros */
-.textonosotros{
+.textonosotros {
   float: left;
-  width:20em;
+  width: 20em;
   height: 20em;
   margin: 3px;
   padding: 3px;
-   font-family: "ArIaL", serif;
-  
+  font-family: "ArIaL", serif;
 }
 
 /* Fin ajuste de descripcion de nosotros */
 
-
-
 .footer-center {
-            background-color: #0DE174;
-            height: 200px;  
-            color: white;
-            justify-content: space-evenly;
-            background-color: rgb(48, 179, 54);
-        }
+  background-color: #0de174;
+  height: 200px;
+  color: white;
+  justify-content: space-evenly;
+  background-color: rgb(48, 179, 54);
+}
 
+.Contador {
+  margin-top: 25px;
+}
 
-
-
- .form-registrarse{
-
-float: none;
-  width:40em;
+.form-registrarse {
+  float: none;
+  width: 40em;
   margin: 3px;
   padding: 3px;
-   font-family: "ArIaL", serif;
-    position:relative;
-    top:25%; 
-    left:25%;
-
-
- }
-
-
-
-
- 
+  font-family: "ArIaL", serif;
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
