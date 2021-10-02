@@ -9,7 +9,11 @@
   border-radius: 20px 20px 20px 20px;
 }
 
-/*24-09-21, Heiver, modificacion titulo principal*/
+.Hola {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 .TituloPagina,
 .Unpocodenosotros,
 .nuestroequipo,
@@ -135,6 +139,7 @@
 /* Fin ajuste de descripcion de nosotros */
 
 .footer-center {
+  padding-top: 20px;
   background-color: #0de174;
   height: 200px;
   color: white;
