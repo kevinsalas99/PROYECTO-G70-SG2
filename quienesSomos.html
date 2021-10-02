@@ -21,7 +21,7 @@
 	<link rel="icon" href="imagenes/logo.jpg">
 
 	<!-- Se añade icono en la parte superior de la pagina-->
-	<link rel="icon"  href="imagenes/logo.png">
+	<link rel="icon" href="imagenes/logo.png">
 
 	<!-- Se agrega este link para uso del bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -47,15 +47,15 @@
 				<!-- Barra de navegacion -->
 				<nav>
 					<ul class="navega">
-						<a href="index.html"> <button type="button"
+						<a href="index.html"> <button type="button" style="BORDER: rgb(12, 12, 12) 1.5px solid"
 								class="btn btn-success btn-lg btn-block">Inicio</button></a>
-						<a href="catalogo.html"> <button type="button"
+						<a href="catalogo.html"> <button type="button" style="BORDER: rgb(12, 12, 12) 1.5px solid"
 								class="btn btn-success btn-lg btn-block">Catálogo</button></a>
-						<a href="servicios.html"> <button type="button"
+						<a href="servicios.html"> <button type="button" style="BORDER: rgb(12, 12, 12) 1.5px solid"
 								class="btn btn-success btn-lg btn-block">Servicios</button></a>
-						<a href="quienesSomos.html"> <button type="button"
+						<a href="quienesSomos.html"> <button type="button" style="BORDER: rgb(12, 12, 12) 1.5px solid"
 								class="btn btn-success btn-lg btn-block">Nosotros</button></a>
-						<a href="Registrarse.html"> <button type="button"
+						<a href="Registrarse.html"> <button type="button" style="BORDER: rgb(12, 12, 12) 1.5px solid"
 								class="btn btn-success btn-lg btn-block">Registrarse</button></a>
 					</ul>
 				</nav>
@@ -70,6 +70,19 @@
 					</ul>
 				</nav>
 				<!--Fin  Barra de navegacion -->
+
+				<!--Inicio barra de busqueda-->
+				<div class="flexsearch">
+					<div class="flexsearch--wrapper">
+						<form class="flexsearch--form" action="#" method="post">
+							<div class="flexsearch--input-wrapper">
+								<input class="flexsearch--input" type="search" placeholder=" Buscar...">
+							</div>
+							<input class="flexsearch--submit" type="submit" value="&#10140;" />
+						</form>
+					</div>
+				</div>
+				<!--Fin barra de busqueda-->
 			</div>
 
 		</header>
@@ -77,77 +90,84 @@
 		<br><br>
 
 		<center>
-			<h1>Un poco de nosotros</h1>
+			<div class="Unpocodenosotros">
+				<h1>Un poco de nosotros</h1>
+			</div>
 		</center>
 
-		<!--24-09-21, Heiver, Añadí texto quienes somos. Cambio de fuente a h3-->
-		<p>
-		<h2>Hola, somos PROSEAGRO CVP. Una empresa que nació a partir de la idea de un
-			proyecto para el diseño de una página web y que se materializa en ser un aliado
-			del campo y de su productividad brindando produtos y servicios, entre los cuales
-			se encuentran la comercialización de plantas, semillas, agroinsumos y herramientas.
-			Te invitamos a que nos visites frecuentemente en nuestro sitio web y en nuestra
-			tienda física. Estamos para servirte.</h2>
-		</p>
+		<div class=Hola style="text-align: center">
+			<p>
+			<h2>Hola, somos PROSEAGRO CVP. Una empresa que nació a partir de la idea de un
+				proyecto para el diseño de una página web y que se materializa en ser un aliado
+				del campo y de su productividad brindando produtos y servicios, entre los cuales
+				se encuentran la comercialización de plantas, semillas, agroinsumos y herramientas.
+				Te invitamos a que nos visites frecuentemente en nuestro sitio web y en nuestra
+				tienda física. Estamos para servirte.</h2>
+			</p>
+		</div>
 
 		<br><br>
- 
-         <div class="nuestroequipo">
-			<h1>NUESTRO EQUIPO DE TRABAJO</h1>
-		 </div>
 
-	<br><br><br>
+		<div class="nuestroequipo">
+			<h1>Nuestro equipo de trabajo</h1>
+		</div>
 
-<!-- Inicio de los 3 primeros propietarios de la pagina-->
+		<br><br><br>
+
+		<!-- Inicio de los 3 primeros propietarios de la pagina-->
 		<section class="imanosotros">
 			<div class="imanosotros1">
 
-				
-					<article>
 
-						<center><img class="iconosotros" src="imagenes/avatar1.jpg"> 
+				<article>
+
+					<center><img class="iconosotros" src="imagenes/avatar1.jpg">
 						<h2 class="centrarTexto">Heiver Vivas</h2>
-						<p class="textonosotros"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></center>
+						<p class="textonosotros"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</center>
 
-						
-					</article>
+
+				</article>
 
 				<article>
 					<center><img class="iconosotros" src="imagenes/avatar2.jpg">
-					<h2 class="centrarTexto">Kevin Salas</h2>
-					<p class="textonosotros"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</center>
-					
+						<h2 class="centrarTexto">Kevin Salas</h2>
+						<p class="textonosotros"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</center>
+
 				</article>
 
 
 				<article>
 					<center>
-						
-                         <img class="iconosotros" src="imagenes/avatar3.jpg">
-					     <h2 class="centrarTexto">Ronald Freile</h2>
-					     <p class="textonosotros"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+						<img class="iconosotros" src="imagenes/avatar3.jpg">
+						<h2 class="centrarTexto">Ronald Freile</h2>
+						<p class="textonosotros"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 					</center>
-					
+
 				</article>
-<!-- Fin de los 3 primeros propietarios de la pagina-->
-				
+				<!-- Fin de los 3 primeros propietarios de la pagina-->
+
 
 
 			</div>
@@ -155,7 +175,7 @@
 
 
 
-<!-- Inicio de los 2 primeros propietarios de la pagina-->
+		<!-- Inicio de los 2 primeros propietarios de la pagina-->
 
 		<section class="imanosotros">
 			<div class="imanosotros1">
@@ -163,18 +183,19 @@
 
 				<article>
 					<center>
-						
-                       <img class="iconosotros" src="imagenes/avatar4.jpg">
-					   <h2 class="centrarTexto"> Anyeli Galvez</h2>
-					   <p class="textonosotros">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+						<img class="iconosotros" src="imagenes/avatar4.jpg">
+						<h2 class="centrarTexto"> Anyeli Galvez</h2>
+						<p class="textonosotros">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
 					</center>
-					
+
 				</article>
 
 
@@ -182,16 +203,17 @@
 				<article>
 
 					<center>
-						
 
-					<img class="iconosotros" src="imagenes/avatar3.jpg">
-					<h2 class="centrarTexto">Néstor Guerrero</h2>
-					<p class="textonosotros">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+						<img class="iconosotros" src="imagenes/avatar3.jpg">
+						<h2 class="centrarTexto">Néstor Guerrero</h2>
+						<p class="textonosotros">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
 
 					</center>
@@ -201,10 +223,10 @@
 
 			</div>
 		</section>
-<!-- Fin de los 2 primeros propietarios de la pagina-->
-		
+		<!-- Fin de los 2 primeros propietarios de la pagina-->
 
-		
+
+
 
 
 
