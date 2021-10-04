@@ -77,7 +77,6 @@
   display: flex;
   margin-bottom: 10px;
   margin-top: 20px;
-  background-color: #f7f7f7;
   flex-wrap: wrap;
 }
 
@@ -91,9 +90,7 @@
   width: 200px;
 }
 
-.iconosagro1 {
-  background-color: white;
-}
+
 
 .card1 {
   margin-bottom: 25px;
@@ -121,7 +118,7 @@
   display: flex;
   margin-bottom: 10px;
   margin-top: 20px;
-  background-color: white;
+
   flex-wrap: wrap;
 }
 /* fin edicion imagenes nosotros  */
@@ -161,3 +158,11 @@
   top: 25%;
   left: 25%;
 }
+
+body {
+background-image: url( imagenes/fondo.jpg);
+background-size: 100%;
+
+}
+
+
