@@ -18,7 +18,7 @@
 .TituloPagina,
 .Unpocodenosotros,
 .nuestroequipo,
-.Registrarse {
+.Registrarse {  
   -webkit-text-fill-color: rgb(255, 255, 255);
   -webkit-text-stroke: 1.5px black;
   text-align: center;
@@ -102,10 +102,7 @@
   margin-bottom: 25px;
 }
 
-.footer-center {
-  text-align: center;
-  font-size: 1;
-}
+
 
 .form-registrarse {
   text-align: center;
@@ -141,6 +138,8 @@
 
 /* Fin ajuste de descripcion de nosotros */
 
+
+
 .footer-center {
   padding-top: 20px;
   background-color: #0de174;
@@ -148,7 +147,11 @@
   color: white;
   justify-content: space-evenly;
   background-color: rgb(48, 179, 54);
+  text-align: center;
+  font-size: 1;
 }
+
+
 
 .Contador {
   margin-top: 25px;
