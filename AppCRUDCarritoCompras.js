@@ -1,7 +1,7 @@
 var AppCRUDCarritoCompras = new Vue({
   el: "#app",
   data: {
-    mensaje: "Elije tus productos",
+    mensaje: "Elige tus productos",
     tareas: [],
     id: 0,
     nuevaTarea: "",
