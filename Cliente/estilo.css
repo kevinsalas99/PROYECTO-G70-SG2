@@ -102,9 +102,14 @@
   margin-bottom: 25px;
 }
 
+.col-lg-4 text-center {
+  justify-content: center;
+  left: 500px;
+}
+
 .form-registrarse {
   text-align: center;
-  background-color: rgb(222, 230, 223);
+  background-color: rgb(205, 228, 206);
   border-radius: 20px 20px 20px 20px;
 }
 
