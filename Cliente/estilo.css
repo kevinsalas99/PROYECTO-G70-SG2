@@ -12,7 +12,7 @@
 .Hola {
   padding-right: 20px;
   padding-left: 20px;
-  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-text-fill-color: rgb(5, 0, 0);
 }
 
 .TituloPagina,
@@ -109,7 +109,7 @@
 
 .form-registrarse {
   text-align: center;
-  background-color: rgb(205, 228, 206);
+  background-color: #e1e4e1;
   border-radius: 20px 20px 20px 20px;
 }
 
@@ -187,6 +187,6 @@
 }
 
 body {
-  background-image: url(imagenes/fondo.jpg);
+  background-image: url(imagenes/Fondo.jpg);
   background-size: 100%;
 }
