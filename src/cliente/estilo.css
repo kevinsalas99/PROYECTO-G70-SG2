@@ -121,9 +121,8 @@
 .imanosotros1 {
   justify-content: space-around;
   display: flex;
-  margin-bottom: 10px;
-  margin-top: 20px;
-
+  margin-bottom: 1px;
+  margin-top: 1px;
   flex-wrap: wrap;
 }
 /* fin edicion imagenes nosotros  */
