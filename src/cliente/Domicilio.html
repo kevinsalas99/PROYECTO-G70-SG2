@@ -1,21 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Domicilios</title>
-    <style>
-        body {
-            background-color: #0de174;
-        }
-    </style>
+
+    <title>
+        Domicilio
+    </title>
+
+    <meta charset="utf-8">
+    <meta name="keywods" content="Agronomia,Plantas,Fertilizantes,Campo,Agricultor">
+    <meta name="description"
+        content="Somos una empresa enfocada a la agroindustria, en la venta de Fertilizantes y otros complementos para las Plantas">
+    <meta name="author" content="Kevin Andres Salas Gomez">
+    <meta name="copyright" content="Kevin.salas">
+    <meta name="robots" content="index">
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <!-- Se añade icono en la parte superior de la pagina-->
+    <link rel="icon" href="imagenes/Logo.png">
+
+    <!-- Se agrega este link para uso del bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
+
+
+
 
 <body>
 
+    <main>
+
+        <header>
+
+            <div class="row">
+
+                <!-- logo -->
+                <img class="Page" src="imagenes/logo2 - copia.png">
+                <br><br>
+                <!-- fin logo-->
+                <!-- Barra de navegacion -->
+                <nav>
+                    <ul class="navega">
+                        <a href="index.html"> <button type="button" style="BORDER: rgb(12, 12, 12) 1.5px solid"
+                                class="btn btn-success btn-lg btn-block">Inicio</button></a>
+                        <a href="catalogo.html"> <button type="button" style="BORDER: rgb(12, 12, 12) 1.5px solid"
+                                class="btn btn-success btn-lg btn-block">Catálogo</button></a>
+                        <a href="servicios.html"> <button type="button" style="BORDER: rgb(12, 12, 12) 1.5px solid"
+                                class="btn btn-success btn-lg btn-block">Servicios</button></a>
+                        <a href="quienesSomos.html"> <button type="button" style="BORDER: rgb(12, 12, 12) 1.5px solid"
+                                class="btn btn-success btn-lg btn-block">Nosotros</button></a>
+                        <a href="Registrarse.html"> <button type="button" style="BORDER: rgb(12, 12, 12) 1.5px solid"
+                                class="btn btn-success btn-lg btn-block">Registrarse</button></a>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="IconosMenu" style=background:#b6b9b6;>
+                        <a href=" InicioSesion.html" window.document.title='Inicio de sesión' ; target="_BLANK">
+                            <img src="imagenes/IconoUsuario.png" width="50" height="50" HSPACE="15"></a>
+                        <a href="CarritoCompras.html" window.document.title='Compras en línea' ; target="_BLANK">
+                            <img src="imagenes/IconoCarritoCompras.png" width="50" height="50" HSPACE="15"></a>
+                        <a href="Domicilio.html" window.document.title='Domicilio' ; target="_BLANK">
+                            <img src="imagenes/IconoDomicilio.png" width="50" height="50" HSPACE="15"></a>
+                    </ul>
+                </nav>
+                <!--Fin  Barra de navegacion -->
+
+                <!--Inicio barra de busqueda-->
+                <div class="flexsearch">
+                    <div class="flexsearch--wrapper">
+                        <form class="flexsearch--form" action="#" method="post">
+                            <div class="flexsearch--input-wrapper">
+                                <input class="flexsearch--input" type="search" placeholder=" Buscar...">
+                            </div>
+                            <input class="flexsearch--submit" type="submit" value="&#10140;" />
+                        </form>
+                    </div>
+                </div>
+                <!--Fin barra de busqueda-->
+            </div>
+
+        </header>
+
+        <br><br>
+
+        <div class="form-registrarse">
+
+            <div class="Registrarse">
+                <h1>Datos y lista de pedido</h1>
+            </div>
+            <br><br>
+
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4"><b>Nombres</b></label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Nombres y apellidos">
+
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4"><b>Teléfono</b></label>
+                        <input type="password" class="form-control" id="inputPassword4"
+                            placeholder="+57 3_ _   _ _ _ _ _ _ _">
+
+                    </div>
+
+                </div>
+                <br>
+
+
+                <div class="form-group">
+                    <label for="inputAddress"><b>Dirección</b></label>
+                    <input type="text" class="form-control" id="inputAddress"
+                        placeholder="Cll/Cr 00 # 00-00, Diagonal 00, AP 00">
+                </div>
+
+                <br>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputCity"><b>Ciudad</b></label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputState"><b>Departamento</b></label>
+                        <input type="text" class="form-control" id="inputState">
+                    </div>
+                </div>
+                <br>
+                <textarea name="texto" rows="4" cols="40" placeholder="Escribe tu listado
+                1...
+                2...
+                3..."></textarea>
+
+                <div class="form-group">
+                    <br>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <br><br>
+                </div>
+            </form>
+        </div>
+
+    </main>
 </body>
+
+<br><br><br>
+
+
+<footer>
+    <div class="footer-center">
+        <h3>© Todos los derechos reservados</h3>
+        <h4>Escríbenos: proseagro.cvp@gmail.com</h4>
+        <h4>Te invitamos a conocer nuestras redes:</h4>
+        <a href="https://www.facebook.com/profile.php?id=100072549925462" target="_BLANK">
+            <img src="imagenes/IconoFacebook.png" width="50" height="50"></a>
+        <a href="https://twitter.com/proseagrocvp" target="_BLANK">
+            <img src="imagenes/IconoTwitter.png" width="50" height="50"></a>
+        <a href="https://www.instagram.com/proseagro_cvp/?hl=es" target="_BLANK">
+            <img src="imagenes/IconoInstagram.png" width="50" height="50"></a>
+        <!--24-09-21,Heiver,Añadí enlace que redirije a mi # de whatsapp-->
+        <a href="https://api.whatsapp.com/send?phone=+573216247924&text=Hola!%20Bienvenidos%20a%20PROSEAGRO%20CVP.%20%C2%BFEn%20qu%C3%A9%20podemos%20servirte?"
+            target="_BLANK">
+            <img src="imagenes/IconoWhatsapp.png" width="50" height="50"></a>
+        <a href="https://www.youtube.com/channel/UC8veVpNHpOlJFmlq-q7S3Ow" target="_BLANK">
+            <img src="imagenes/IconoYoutube.png" width="50" height="50"></a>
+        <a href="https://www.linkedin.com/in/proseagro-cvp-99b197221/" target="_BLANK">
+            <img src="imagenes/IconoLinkedin.png" width="50" height="50"></a>
+        <a href="Mensaje.html" window.document.title='Mensaje' ; target="_BLANK">
+            <img src="imagenes/IconoMensaje.png" width="50" height="50"></a>
+
+    </div>
+</footer>
 
 </html>
