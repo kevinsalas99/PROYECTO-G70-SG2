@@ -128,11 +128,20 @@
 }
 /* fin edicion imagenes nosotros  */
 
+.textonosotrosservicios {
+  float: left;
+  width: 20em;
+  height: 150px;
+  margin: 3px;
+  padding: 3px;
+  font-family: "ArIaL", serif;
+}
+
 /* Ajuste de descripcion de nosotros */
 .textonosotros {
   float: left;
   width: 20em;
-  height: 20em;
+  height: 20ems;
   margin: 3px;
   padding: 3px;
   font-family: "ArIaL", serif;
@@ -193,7 +202,6 @@
 
 .TituloPaginaMetodoPago {
   -webkit-text-fill-color: rgb(255, 255, 255);
-  -webkit-text-stroke: 1.5px black;
   text-align: center;
   margin-top: 70px;
   margin-bottom: 25px;
@@ -205,6 +213,11 @@
   size: 5px;
   background-color: rgb(48, 179, 54);
   border-radius: 20px 20px 20px 20px;
+}
+
+#emailHelp,
+#loginHelp {
+  -webkit-text-fill-color: rgb(0, 0, 0);
 }
 
 body {
