@@ -15,6 +15,6 @@ app.use("/", require("./rutas/rutas"));
 //Archivos estaticos
 app.use(express.static(path.join(__dirname, "cliente")));
 
-app.listen(4000, function(){
-console.log("servidor iniciado en el puerto " + app.get("port"));
+app.listen(app.get("port"), function(){
+    console.log("servidor iniciado en el puerto " + app.get("port"));
 });
