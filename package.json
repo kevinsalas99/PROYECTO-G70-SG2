@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "APP WEB PROSEAGRO CVP",
   "main": "index.js",
-  "scripts": {
+  "scripts": { 
+    "start": "node app.js",
     "dev": "nodemon src/servidor/index.js"
   },
   "repository": {
