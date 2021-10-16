@@ -4,6 +4,7 @@
   "description": "APP WEB PROSEAGRO CVP",
   "main": "index.js",
   "scripts": { 
+    "test": "jest",
     "start": "node app.js",
     "dev": "nodemon src/servidor/index.js"
   },
