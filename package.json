@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "APP WEB PROSEAGRO CVP",
   "main": "index.js",
-  "scripts": {
-    "dev": "nodemon src/index.js"
+  "scripts": { 
+    "test": "jest",
+    "start": "node app.js",
+    "dev": "nodemon src/servidor/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,9 @@
   },
   "homepage": "https://github.com/kevinsalas99/PROYECTO-G70-SG2#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "mongoose": "^6.0.11",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
