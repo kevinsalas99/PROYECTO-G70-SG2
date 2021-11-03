@@ -1,6 +1,6 @@
-const express = require ("express");
-const morgan = require ("morgan");
-const path = require ("path");
+const express = require("express");
+const morgan = require("morgan");
+const path = require("path");
 
 const app = express();
 
@@ -15,6 +15,6 @@ app.use("/", require("./rutas/rutas"));
 //Archivos estaticos
 app.use(express.static(path.join(__dirname, "cliente")));
 
-app.listen(app.get("port"), function(){
+app.listen(app.get("port"), function () {
     console.log("servidor iniciado en el puerto " + app.get("port"));
 });
